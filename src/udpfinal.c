@@ -74,7 +74,7 @@ main(int argc, char **argv) {
   }
   
   /*
-   * Initialisation de la structure msghdr demandé par recvmsg
+   * Initialisation de la structure msghdr demandée par recvmsg
    *   iov     contient l'emplacement du buffer et sa taille
    *   cliaddr contient les informations sur l'émetteur
    *   cmsg    contient les informations de control en fonction des options
@@ -138,7 +138,7 @@ main(int argc, char **argv) {
    ****************************************************************************/
 
   /*
-   * Définition de la structure msghdr demandé par sendmsg
+   * Définition de la structure msghdr demandée par sendmsg
    *   iov      contient l'emplacement du message à envoyer et sa taille
    *   cliaddr  définit la destination du message
    *   cmsgbuf  contient les informations d'envoi (interface d'envoi + adresse
@@ -175,7 +175,7 @@ main(int argc, char **argv) {
   }
   
   /*
-   * Affichage du nombre d'octets envoyé
+   * Affichage du nombre d'octets envoyés
    */
   printf("%d bytes sent\n", nbytes);
 
